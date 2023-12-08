@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wikiland</title>
+		<link rel="stylesheet" type="text/css" href="D:/Raboshi/Coursera web dev/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="D:/Raboshi/Coursera web dev/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/styles.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<!-- Header started-->
+		<div class="row">
+			<div class="col">
+				<header>
+					<nav class="navbar navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
+					  <div class="container-fluid">
+					    <a class="navbar-brand" href="D:/Raboshi/Coursera web dev/Info/Index.html">Wikiland</a>
+					    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					      <span class="navbar-toggler-icon"></span>
+					    </button>
+					    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					        <li class="nav-item">
+					          <a class="nav-link" href="D:/Raboshi/Coursera web dev/Floating.html" target="_blank">Link</a>
+					        </li>
+					        <li class="nav-item dropdown">
+					          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            Dropdown
+					          </a>
+					          <ul class="dropdown-menu">
+					            <li><a class="dropdown-item" href="#">Action</a></li>
+					            <li><a class="dropdown-item" href="#">Another action</a></li>
+					            <li><hr class="dropdown-divider"></li>
+					            <li><a class="dropdown-item" href="#">Something else here</a></li>
+					          </ul>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+					        </li>
+					      </ul>
+					      <form class="d-flex" role="search">
+					        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					        <button class="btn btn-outline-success" type="submit">Search</button>
+					      </form>
+					    </div>
+					  </div>
+					</nav>
+				</header>
+			</div>
+		</div>
+		<!-- Header finished-->
+		<!-- Sidebar started-->
+		<div class="row mt-2">
+			<div class="col-12 col-md-2">
+				<ul class="list-group">
+				  <li class="list-group-item active" aria-current="true">History</li>
+				  <li class="list-group-item">Technology</li>
+				  <li class="list-group-item">Sociology</li>
+				  <li class="list-group-item">Environment</li>
+				  <li class="list-group-item">Galaxy</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Sidebar finished-->
+		<!-- Content started-->
+			<div class="col-10 col-md-10">					
+			<!--Film row started-->
+				<div class="row">
+				<!--Film started-->	
+					<div class="col-12 col-sm-6 col-lg-3 mb-2">
+						<div class="card">
+						  <img src="D:/Raboshi/Coursera web dev/images.jpg" class="card-img-top" alt="Interstellar">
+							<div class="card-body">
+						    	<h5 class="card-title">Interstellar</h5>
+						    	<p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans</p>
+						    <a href="D:/Raboshi/Coursera web dev/Info/Interstellar.html" class="btn btn-primary">Enjoy Music</a>
+							</div>
+						</div>
+					</div>
+				<!--Film finished-->
+				<!--Film started-->	
+					<div class="col-12 col-sm-6 col-lg-3 mb-2">
+						<div class="card">
+						  <img src="D:/Raboshi/Coursera web dev/images.jpg" class="card-img-top" alt="Interstellar">
+							<div class="card-body">
+						    	<h5 class="card-title">Interstellar</h5>
+						    	<p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans</p>
+						    <a href="https://www.youtube.com/watch?v=Wsu6fP6aIGI" target="_blank" class="btn btn-primary">Enjoy Music</a>
+							</div>
+						</div>
+					</div>
+				<!--Film finished-->
+				<!--Film started-->	
+					<div class="col-12 col-sm-6 col-lg-3 mb-2">
+						<div class="card">
+						  <img src="D:/Raboshi/Coursera web dev/images.jpg" class="card-img-top" alt="Interstellar">
+							<div class="card-body">
+						    	<h5 class="card-title">Interstellar</h5>
+						    	<p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans</p>
+						    <a href="https://www.youtube.com/watch?v=Wsu6fP6aIGI" target="_blank" class="btn btn-primary">Enjoy Music</a>
+							</div>
+						</div>
+					</div>
+				<!--Film finished-->
+				<!--Film started-->	
+					<div class="col-12 col-sm-6 col-lg-3 mb-2">
+						<div class="card">
+						  <img src="D:/Raboshi/Coursera web dev/images.jpg" class="card-img-top" alt="Interstellar">
+							<div class="card-body">
+						    	<h5 class="card-title">Interstellar</h5>
+						    	<p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans</p>
+						    <a href="https://www.youtube.com/watch?v=Wsu6fP6aIGI" target="_blank" class="btn btn-primary">Enjoy Music</a>
+							</div>
+						</div>
+					</div>
+				<!--Film finished-->
+				<!--Film started-->	
+					<div class="col-12 col-sm-6 col-lg-3 mb-2">
+						<div class="card">
+						  <img src="D:/Raboshi/Coursera web dev/images.jpg" class="card-img-top" alt="Interstellar">
+							<div class="card-body">
+						    	<h5 class="card-title">Interstellar</h5>
+						    	<p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans</p>
+						    <a href="https://www.youtube.com/watch?v=Wsu6fP6aIGI" target="_blank" class="btn btn-primary">Enjoy Music</a>
+							</div>
+						</div>
+					</div>
+				<!--Film finished-->
+				<!--Film started-->	
+					<div class="col-12 col-sm-6 col-lg-3 mb-2">
+						<div class="card">
+						  <img src="D:/Raboshi/Coursera web dev/images.jpg" class="card-img-top" alt="Interstellar">
+							<div class="card-body">
+						    	<h5 class="card-title">Interstellar</h5>
+						    	<p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans</p>
+						    <a href="https://www.youtube.com/watch?v=Wsu6fP6aIGI" target="_blank" class="btn btn-primary">Enjoy Music</a>
+							</div>
+						</div>
+					</div>
+				<!--Film finished-->
+				<!--Film started-->	
+					<div class="col-12 col-sm-6 col-lg-3 mb-2">
+						<div class="card">
+						  <img src="D:/Raboshi/Coursera web dev/images.jpg" class="card-img-top" alt="Interstellar">
+							<div class="card-body">
+						    	<h5 class="card-title">Interstellar</h5>
+						    	<p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans</p>
+						    <a href="https://www.youtube.com/watch?v=Wsu6fP6aIGI" target="_blank" class="btn btn-primary">Enjoy Music</a>
+							</div>
+						</div>
+					</div>
+				<!--Film finished-->
+				<!--Film started-->	
+					<div class="col-12 col-sm-6 col-lg-3 mb-2">
+						<div class="card">
+						  <img src="D:/Raboshi/Coursera web dev/images.jpg" class="card-img-top" alt="Interstellar">
+							<div class="card-body">
+						    	<h5 class="card-title">Interstellar</h5>
+						    	<p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans</p>
+						    <a href="https://www.youtube.com/watch?v=Wsu6fP6aIGI" target="_blank" class="btn btn-primary">Enjoy Music</a>
+							</div>
+						</div>
+					</div>
+				<!--Film finished-->
+			<!--Film row finished-->
+
+			<!--Pagination row started-->
+
+			<div class="row">
+				<div class="col">
+					<nav aria-label="Page navigation example">
+					  <ul class="pagination">
+					    <li class="page-item">
+					      <a class="page-link" href="#" aria-label="Previous">
+					        <span aria-hidden="true">&laquo;</span>
+							      </a>
+							    </li>
+							    <li class="page-item"><a class="page-link" href="#">1</a></li>
+							    <li class="page-item"><a class="page-link" href="#">2</a></li>
+							    <li class="page-item"><a class="page-link" href="#">3</a></li>
+							    <li class="page-item">
+							      <a class="page-link" href="#" aria-label="Next">
+					        <span aria-hidden="true">&raquo;</span>
+					      </a>
+					    </li>
+					  </ul>
+					</nav>
+				</div>
+			</div>
+			<!--Pagination row finished-->							  
+			</div>
+		<!-- Content finished-->
+			</div>
+		<!--Main row finished-->
+		
+		<!--Footer started-->
+		<div class="row">
+			<div class="col p-5 bg-dark text-light">
+				<footer>
+					&copy; All rights rederved.
+				</footer>
+			</div>
+		</div>
+		<!--Footer finished-->	
+		</div>	
+	</div>
+
+	<script src="D:/Raboshi/Coursera web dev/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/jQuery v3.7.1.js"></script>
+	<script src="D:/Raboshi/Coursera web dev/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+	<script src="D:/Raboshi/Coursera web dev/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/script.js"></script>
+</body>
+</html>
